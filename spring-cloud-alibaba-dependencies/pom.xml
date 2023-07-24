@@ -18,8 +18,8 @@
     <description>Spring Cloud Alibaba Dependencies</description>
 
     <properties>
-        <revision>2022.0.0.0-RC2</revision>
-        <sentinel.version>1.8.6</sentinel.version>
+        <revision>2022.0.0.0-snapshot</revision>
+        <sentinel.version>2.0.0-snapshot</sentinel.version>
         <seata.version>1.7.0-native-rc2</seata.version>
         <nacos.client.version>2.2.1</nacos.client.version>
         <spring.context.support.version>1.0.11</spring.context.support.version>
@@ -145,7 +145,7 @@
             <dependency>
                 <groupId>com.alibaba.csp</groupId>
                 <artifactId>sentinel-spring-webmvc-6x-adapter</artifactId>
-                <version>${sentinel.version}</version>
+                <version>1.8.6</version>
             </dependency>
 
             <!--Alibaba Seata-->
